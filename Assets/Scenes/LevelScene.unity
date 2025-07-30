@@ -223,7 +223,7 @@ GameObject:
   - component: {fileID: 1883916636}
   - component: {fileID: 1883916635}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -241,6 +241,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8b1bea192f3fd549bc09b99da726bca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  successfulCases: 0
+  failedCases: 0
 --- !u!212 &1883916636
 SpriteRenderer:
   m_ObjectHideFlags: 0
