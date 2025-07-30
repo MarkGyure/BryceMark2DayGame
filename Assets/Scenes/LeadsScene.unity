@@ -314,6 +314,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &360218731 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2168041971969736610, guid: 91281f1784d3b47489f1c16a983548d0, type: 3}
+  m_PrefabInstance: {fileID: 1140065523}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &360218736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360218731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e88110237e87e344780b876e081e29d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &701816269
 GameObject:
   m_ObjectHideFlags: 0
@@ -653,8 +670,19 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6283932762611418094, guid: 91281f1784d3b47489f1c16a983548d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1837375317}
+    - targetCorrespondingSourceObject: {fileID: 2168041971969736610, guid: 91281f1784d3b47489f1c16a983548d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 360218736}
   m_SourcePrefab: {fileID: 100100000, guid: 91281f1784d3b47489f1c16a983548d0, type: 3}
+--- !u!1 &1268715121 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6384019523271999077, guid: 91281f1784d3b47489f1c16a983548d0, type: 3}
+  m_PrefabInstance: {fileID: 1140065523}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1600563336
 GameObject:
   m_ObjectHideFlags: 0
@@ -686,6 +714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FileStack: {fileID: 1837375316}
+  script: {fileID: 1837375317}
   OnOff: 0
 --- !u!61 &1600563338
 BoxCollider2D:
@@ -835,11 +864,39 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1663077172 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8672084174474426930, guid: 91281f1784d3b47489f1c16a983548d0, type: 3}
+  m_PrefabInstance: {fileID: 1140065523}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1806101835 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9149259637256370982, guid: 91281f1784d3b47489f1c16a983548d0, type: 3}
+  m_PrefabInstance: {fileID: 1140065523}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1837375316 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6283932762611418094, guid: 91281f1784d3b47489f1c16a983548d0, type: 3}
   m_PrefabInstance: {fileID: 1140065523}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1837375317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837375316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69a07f8a6c341cf46a64cb466cde4c2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentLeadRep: 0
+  reportedLocation: {fileID: 2058851609}
+  reportedDate: {fileID: 1663077172}
+  reportedTime: {fileID: 1806101835}
+  reporterName: {fileID: 2016158789}
+  reportNumber: {fileID: 1268715121}
 --- !u!1 &1969885310
 GameObject:
   m_ObjectHideFlags: 0
@@ -927,6 +984,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2016158789 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8185196218285925357, guid: 91281f1784d3b47489f1c16a983548d0, type: 3}
+  m_PrefabInstance: {fileID: 1140065523}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2029400077
 GameObject:
   m_ObjectHideFlags: 0
@@ -1006,6 +1068,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2058851609 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 500865028688599526, guid: 91281f1784d3b47489f1c16a983548d0, type: 3}
+  m_PrefabInstance: {fileID: 1140065523}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

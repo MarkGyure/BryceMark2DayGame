@@ -4,16 +4,17 @@ using UnityEngine;
 
 public class LeadsScript : MonoBehaviour
 {
+    [SerializeField] int currentLeadRep;
     public GameObject reportedLocation;
     public GameObject reportedDate;
     public GameObject reportedTime;
     public GameObject reporterName;
     public GameObject reportNumber;
-
     public void GenerateLead()
     {
         // New randomizer 
         var random = new System.Random();
+        #region
         // Makes a list of values from locations enum
         DateTime date = new DateTime(2025, 1, 1);
         var locations = Enum.GetValues(typeof(Location));
@@ -21,6 +22,8 @@ public class LeadsScript : MonoBehaviour
         var lastNames = Enum.GetValues(typeof(LastName));
         var nicknames = Enum.GetValues(typeof(Nicknames));
         var letters = Enum.GetValues(typeof(Alphabet));
+        var photoEvidence = Enum.GetValues(typeof(PhotoEvidence));
+        var textEvidence = Enum.GetValues(typeof(TextEvidence));
         // Get a random value
         date = date.AddDays(random.Next(364));
         date = date.AddMinutes(random.Next(59));
@@ -30,6 +33,14 @@ public class LeadsScript : MonoBehaviour
         var randomLastName = lastNames.GetValue(random.Next(lastNames.Length));
         var randomNickname = nicknames.GetValue(random.Next(nicknames.Length));
         var randomLetter = letters.GetValue(random.Next(letters.Length));
+        // Get photo evidences
+        var randomPhotoOne = photoEvidence.GetValue(random.Next(photoEvidence.Length));
+        var randomPhotoSecond = photoEvidence.GetValue(random.Next(photoEvidence.Length));
+        for(int i = 0; i < random.Next(2,5); i++)
+        {
+
+        }
+        #endregion
         // Set new case
         reportedLocation.GetComponent<TextMeshProUGUI>().text = (FormatString(randomLoc.ToString()));
         reporterName.GetComponent<TextMeshProUGUI>().text = (randomFirstName + " \"" + (FormatString(randomNickname.ToString())) + "\" " + randomLastName);
@@ -57,8 +68,6 @@ public class LeadsScript : MonoBehaviour
         return formattedString;
     }
 
-    
-
     //Enums
     #region 
     public enum Location
@@ -72,7 +81,6 @@ public class LeadsScript : MonoBehaviour
         MountStHelens,
         CultusCreek
     }
-
     public enum FirstName
     {
         Oliver,
@@ -112,9 +120,10 @@ public class LeadsScript : MonoBehaviour
         Sam,
         Annie,
         Bianca,
-        Audrick
+        Audrick,
+        Mike,
+        Paige
     }
-
     public enum LastName 
     {
         Cabrera,
@@ -159,9 +168,10 @@ public class LeadsScript : MonoBehaviour
         Sanders,
         Ross,
         Dayola,
-        Castillo
+        Castillo,
+        Hawk,
+        Pianosi
     }
-
     public enum Nicknames
     {
         Munch,
@@ -202,7 +212,8 @@ public class LeadsScript : MonoBehaviour
         Giggles,
         MamaBear,
         Bro,
-        Speedy
+        Speedy,
+        Predator
     }
     public enum Alphabet
     { 
@@ -232,6 +243,39 @@ public class LeadsScript : MonoBehaviour
         X,
         Y,
         Z
+    }
+    public enum PhotoEvidence
+    {
+        BlurrySilhouettes = 1,
+        ThermalHeatCam =  2,
+        InfraredTrailCam = 3,
+        RedEyeReflection = 1,
+        Footprints = 3,
+        TreeDamage = 0,
+        PileOfStackedRocks = 1,
+        FurSamples = 1,
+        HighUpBrokenBranches = 1,
+        ClawMarks = 1,
+        HandPrint = 3
+    }
+    public enum TextEvidence
+    {
+        MutilatedAnimalCarcasses = 1,
+        Feces = 2,
+        ThrownRocksAtCampSites = 3,
+        MissingFood = 1,
+        WoodKnocks = 3,
+        Howls = 0,
+        Whoops = 3,
+        GrowlsAndGrunts = 1,
+        RocksClacking = 2,
+        BranchHitting = 2,
+        WornTrail = 1,
+        DisturbedNests = 1,
+        OddSmell = 3,
+        ShatteredTrailCam = 3,
+        QuietZones = 1,
+        BloodSplatter = 1,
     }
     #endregion
 }
