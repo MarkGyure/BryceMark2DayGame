@@ -8,9 +8,7 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        PlayerData data = SaveSystem.LoadPlayer();
-        successfulCases = data.successfulCases;
-        failedCases = data.failedCases;
+        DontDestroyOnLoad(gameObject);
     }
 
     public void SuccessfulCase()
@@ -25,6 +23,6 @@ public class Player : MonoBehaviour
 
     public string GetRank()
     {
-        return "";
+        return "Rookie";
     }
 }
