@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BigFootInfared_0: 7129747729725627878
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

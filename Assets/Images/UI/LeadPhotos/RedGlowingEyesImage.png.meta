@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RedGlowingEyesImage_0: 7840650958790235079
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

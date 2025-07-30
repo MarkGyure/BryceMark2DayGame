@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 731300d1baf7bd040a728185f1a00c8f
+guid: 536bc2705dd73984a8b1ea715502b8cb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 224702881320694912
-    second: BigFootThermal_0
+      213: -1064590699900352587
+    second: TempRoomLayout_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BigFootThermal_0
+      name: TempRoomLayout_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 334
-        height: 201
+        width: 612
+        height: 408
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 084702d741e4e1300800000000000000
-      internalID: 224702881320694912
+      spriteID: 5b7414d1660d931f0800000000000000
+      internalID: -1064590699900352587
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      BigFootThermal_0: 224702881320694912
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
