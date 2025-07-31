@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4196876807517698566}
   - component: {fileID: 1130756506229334435}
+  - component: {fileID: 5320103140050113318}
   m_Layer: 0
   m_Name: Tree
   m_TagString: Untagged
@@ -89,6 +90,69 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5320103140050113318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377640251693208620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_Priority: 1
+  m_ComponentVersion: 5
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_AlphaCutoff: 0.1
+  m_ApplyToSortingLayers: 00000000
+  m_ShapePath:
+  - {x: -0.18060493, y: -1.5402516, z: 0}
+  - {x: -0.2455473, y: -1.3975123, z: 0}
+  - {x: -0.44972515, y: -1.4449953, z: 0}
+  - {x: -0.47346687, y: -1.3262876, z: 0}
+  - {x: -0.35475826, y: -1.1316069, z: 0}
+  - {x: -0.30252743, y: -0.81347, z: 0}
+  - {x: -0.31355762, y: -0.639223, z: 0}
+  - {x: 0.19010162, y: -0.6297265, z: 0}
+  - {x: 0.19959831, y: -1.089162, z: 0}
+  - {x: 0.32425022, y: -1.3025459, z: 0}
+  - {x: 0.49518967, y: -1.383267, z: 0}
+  - {x: 0.35748863, y: -1.5067238, z: 0}
+  - {x: 0.12956905, y: -1.3737706, z: 0}
+  - {x: -0.046118736, y: -1.3785194, z: 0}
+  - {x: -0.06511116, y: -1.5209686, z: 0}
+  m_ShapePathHash: -1318567409
+  m_InstanceId: 0
+  m_ShadowShape2DComponent: {fileID: 0}
+  m_ShadowShape2DProvider:
+    rid: -2
+  m_ShadowCastingSource: 1
+  m_ShadowMesh:
+    m_Mesh: {fileID: 0}
+    m_LocalBounds:
+      m_Center: {x: 0.010861397, y: -1.0849891, z: 0}
+      m_Extent: {x: 0.48432827, y: 0.45526254, z: 0}
+    m_EdgeProcessing: 1
+    m_TrimEdge: 0.19
+    m_FlipX: 0
+    m_FlipY: 0
+    m_InitialTrim: 0.04
+  m_CastingOption: 1
+  m_PreviousTrimEdge: 0.19
+  m_PreviousEdgeProcessing: 1
+  m_PreviousShadowCastingSource: 1
+  m_PreviousShadowShape2DSource: {fileID: 1130756506229334435}
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
 --- !u!1 &2051409525116964778
 GameObject:
   m_ObjectHideFlags: 0
