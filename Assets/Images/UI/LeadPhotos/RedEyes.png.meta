@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RedEyes_0: 8248022647404169998
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

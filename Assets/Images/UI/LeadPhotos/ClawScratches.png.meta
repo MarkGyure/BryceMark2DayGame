@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ClawScratches_0: 4754967738925836357
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

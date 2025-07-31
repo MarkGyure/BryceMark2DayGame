@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f13fdf29c0164984391e87922c27f13a
+guid: f816b31b33d9afb418c15f6af8b104bd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8184159894105025665
-    second: Thermal_0
+      213: 2457954073110479074
+    second: ForestFloorTileGreen_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Thermal_0
+      name: ForestFloorTileGreen_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 334
-        height: 201
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 18ce029ef0af39170800000000000000
-      internalID: 8184159894105025665
+      spriteID: 2e089f9e4386c1220800000000000000
+      internalID: 2457954073110479074
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Thermal_0: 8184159894105025665
+      ForestFloorTileGreen_0: 2457954073110479074
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
