@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 84d91dcfdc65cb746ba654d7f2a6835c
+guid: 2f682a3cf42d0d04a8095c3ed1e9ed3b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3452003437791708593
-    second: Rock_0
+      213: -8215898858632697902
+    second: TallGrass_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rock_0
+      name: TallGrass_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 87
-        height: 70
+        width: 24
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b5800156daf7ef20800000000000000
-      internalID: 3452003437791708593
+      spriteID: 2d729ac84834bfd80800000000000000
+      internalID: -8215898858632697902
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Rock_0: 3452003437791708593
+      TallGrass_0: -8215898858632697902
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
